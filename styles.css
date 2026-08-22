@@ -201,6 +201,15 @@ header {
   gap: 40px;
   align-items: center;
 }
+.hero-brand {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px 0;
+}
+.hero-brand img {
+  width: min(100%, 390px);
+  height: auto;
+}
 .hero h1 {
   color: #fff;
   font-size: clamp(2.4rem, 4.6vw, 3.6rem);
@@ -464,6 +473,7 @@ footer {
 /* ---------- Responsive ---------- */
 @media (max-width: 900px) {
   .hero-inner { grid-template-columns: 1fr; }
+  .hero-brand { justify-content: flex-start; padding-top: 12px; }
   .hero-arc { display: none; }
   .about-grid, .contact-wrap { grid-template-columns: 1fr; }
   .tiers { grid-template-columns: 1fr; }
