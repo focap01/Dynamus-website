@@ -494,6 +494,7 @@ footer {
   .nav-cta .btn-primary { display: none; }
   section { padding: 64px 0; }
   .hero { padding: 90px 0 70px; }
+  .hero { background: radial-gradient(120% 140% at 15% -10%, #685d9f 0%, #49416f 55%, #343849 100%); }
 }
 @media (max-width: 900px) {
   body.nav-open .nav-links {
