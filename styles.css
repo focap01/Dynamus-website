@@ -127,7 +127,7 @@ header {
   padding: 14px 0;
 }
 .brand { display: flex; align-items: center; gap: 10px; text-decoration: none; }
-.brand img { height: 40px; width: auto; }
+.brand img { height: 64px; width: auto; }
 .brand-name {
   font-family: var(--font-display);
   font-weight: 600;
